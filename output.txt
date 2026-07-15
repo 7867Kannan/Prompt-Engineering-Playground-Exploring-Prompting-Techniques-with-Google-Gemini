@@ -1,0 +1,250 @@
+PROMPT TYPE : one_shot
+
+USER PROMPT:
+WHAT IS PROMPT ENGINEERING
+
+AI RESPONSE:
+Definition:
+Prompt Engineering is the practice of designing, refining, and optimizing inputs (prompts) to guide Artificial Intelligence models, particularly Large Language Models (LLMs), to generate the most accurate, relevant, and high-quality outputs.
+
+Key Points:
+- Focuses on structuring instructions, context, and constraints for the AI
+- Bridges the gap between human intent and machine execution
+- Helps reduce AI errors (hallucinations) and improves response efficiency
+
+Example:
+Using techniques like "Few-Shot Prompting" (providing examples), "Chain-of-Thought" (asking the AI to think step-by-step), or role-play prompts (e.g., "Act as a professional copywriter and write a 50-word product description...").
+================================================================================
+
+================================================================================
+PROMPT TYPE : instruction_prompt
+
+USER PROMPT:
+HOW TO GO TO VIRUDHUNAGAR FROM COIMBATORE THROUGH BUS
+
+AI RESPONSE:
+Traveling from Coimbatore to Virudhunagar by bus is convenient and well-connected. Here is how you can plan your journey:
+
+*   **Direct Bus Options:** 
+    *   **Government Buses (TNSTC):** Board a direct government bus from the **Singanallur Bus Stand** in Coimbatore. These buses run frequently throughout the day.
+    *   **Private Travels:** Book AC, luxury, or sleeper buses (such as Essaar, Vetri, or KPN) from the **Omni Bus Stand** or **Gandhipuram**. 
+    *   **Duration & Cost:** The travel time is approximately 5 to 7 hours, costing between ₹250 and ₹800 depending on the bus class.
+
+*   **Connecting Route (via Madurai):**
+    *   If direct buses are unavailable, take a frequent bus from Coimbatore to **Madurai (Mattuthavani Bus Stand)**. 
+    *   From Madurai, board any bus heading towards Tirunelveli, Kovilpatti, or Nagercoil, and get down at Virudhunagar, which is just a 1-hour ride (45 km) away.
+
+*   **Important Tips:**
+    *   Book private buses in advance online via redBus or AbhiBus for weekend travel.
+    *   Confirm your drop-off point, as some buses stop at the Virudhunagar bypass rather than entering the town center.
+
+Taking a direct bus from Singanallur Bus Stand is the most convenient and economical way to reach Virudhunagar.
+================================================================================
+
+================================================================================
+PROMPT TYPE : chain_of_thought
+
+USER PROMPT:
+IF A ALONE CAN SOLVE THE PROBLEM IN 5 DAYS AND B CAN SOLVE THE PROBLEM IN 7 DAYS ALONE. HOW MANY DAYSWILL IT TAKE FOR BOTH A AND B TO COMPLETE THE PROBLEM
+
+AI RESPONSE:
+Here is the step-by-step solution to the problem:
+
+### 1. Identify the Given Information
+*   Time taken by **A** to solve the problem alone = $5$ days.
+*   Time taken by **B** to solve the problem alone = $7$ days.
+
+---
+
+### 2. Explain the Solution Process
+To find out how long they will take to solve the problem working together, we use the concept of work rates:
+1.  **Determine individual rates:** The rate of work is the fraction of the problem completed in one day.
+    *   Rate of A = $\frac{1}{\text{Time taken by A}}$
+    *   Rate of B = $\frac{1}{\text{Time taken by B}}$
+2.  **Determine the combined rate:** When they work together, their daily work rates are added together.
+    *   Combined Rate = Rate of A + Rate of B
+3.  **Determine total time:** The total time taken to complete the task is the reciprocal of their combined rate.
+    *   Total Time = $\frac{1}{\text{Combined Rate}}$
+
+---
+
+### 3. Perform Calculations
+*   **Rate of A** = $\frac{1}{5}$ of the problem per day.
+*   **Rate of B** = $\frac{1}{7}$ of the problem per day.
+
+*   **Combined Rate:**
+    $$\text{Combined Rate} = \frac{1}{5} + \frac{1}{7}$$
+
+    To add these fractions, find a common denominator (which is $35$):
+    $$\text{Combined Rate} = \frac{7}{35} + \frac{5}{35} = \frac{12}{35} \text{ of the problem per day}$$
+
+*   **Total Time ($T$):**
+    $$T = \frac{1}{\text{Combined Rate}} = \frac{35}{12} \text{ days}$$
+
+    Convert the improper fraction to a mixed number and a decimal:
+    *   **Mixed number:** $2 \frac{11}{12}$ days
+    *   **Decimal:** $\approx 2.92$ days
+
+---
+
+### 4. Verify the Result
+*   If two people of A's speed worked together, it would take them $2.5$ days ($5 / 2$).
+*   Since B is slower than A, the combined time must be slightly more than $2.5$ days but less than A's individual time of $5$ days. 
+*   Our result of $\approx 2.92$ days is within this logical range.
+*   Checking the work done:
+    $$\text{Work by A} = \frac{1}{5} \times \frac{35}{12} = \frac{7}{12}$$
+    $$\text{Work by B} = \frac{1}{7} \times \frac{35}{12} = \frac{5}{12}$$
+    $$\text{Total Work} = \frac{7}{12} + \frac{5}{12} = \frac{12}{12} = 1 \text{ (completed problem)}$$
+
+The calculation is verified and correct.
+
+---
+
+### 5. Final Answer
+It will take **$\frac{35}{12}$ days** (or **$2 \frac{11}{12}$ days**, which is approximately **$2.92$ days**) for both A and B to complete the problem together.
+================================================================================
+
+================================================================================
+PROMPT TYPE : chain_of_thought
+
+USER PROMPT:
+IF A ALONE CAN SOLVE THE PROBLEM IN 10 DAYS AND B ALONE CAN SOLVE THE PROBLEM IN 20 DAYS. HOW MANY DAYS WILL IT TAKE BOTH A AND B TO COMPLETE THE PROBLEM
+
+AI RESPONSE:
+To solve this problem, we will follow the step-by-step process outlined in your instructions.
+
+---
+
+### **1. Identify the Given Information**
+* **Time taken by A alone ($T_A$):** 10 days
+* **Time taken by B alone ($T_B$):** 20 days
+
+---
+
+### **2. Explain the Solution Process**
+To find the total time taken when A and B work together, we use the concept of **work rates** (work done per day):
+1. Find the individual work rate of A (the fraction of the problem A can solve in 1 day).
+2. Find the individual work rate of B (the fraction of the problem B can solve in 1 day).
+3. Add their individual rates together to find their combined work rate per day.
+4. Take the reciprocal of the combined work rate to find the total number of days it will take them to complete the problem together.
+
+Alternatively, we can use the **Product-over-Sum formula** for two people working together:
+$$\text{Time Together} = \frac{T_A \times T_B}{T_A + T_B}$$
+
+---
+
+### **3. Perform Calculations**
+
+**Using the Formula:**
+$$\text{Time Together} = \frac{10 \times 20}{10 + 20}$$
+
+$$\text{Time Together} = \frac{200}{30}$$
+
+$$\text{Time Together} = \frac{20}{3}\text{ days}$$
+
+Converting this improper fraction to a mixed number and decimal:
+* **Mixed number:** $6 \frac{2}{3}$ days
+* **Decimal:** Approximately $6.67$ days (or 6 days and 16 hours)
+
+---
+
+### **4. Verify the Result**
+Let's verify by calculating the work done by each person in $6 \frac{2}{3}$ (or $\frac{20}{3}$) days:
+* **Work done by A in $\frac{20}{3}$ days:** $\text{Rate} \times \text{Time} = \frac{1}{10} \times \frac{20}{3} = \frac{2}{3}$ of the problem.
+* **Work done by B in $\frac{20}{3}$ days:** $\text{Rate} \times \text{Time} = \frac{1}{20} \times \frac{20}{3} = \frac{1}{3}$ of the problem.
+* **Total Work Done:** $\frac{2}{3} + \frac{1}{3} = 1$ (100% of the problem is completed).
+
+The calculation is correct.
+
+---
+
+### **5. Final Answer**
+It will take A and B working together **$6 \frac{2}{3}$ days** (or approximately **$6.67$ days**) to complete the problem.
+================================================================================
+
+================================================================================
+PROMPT TYPE : comparative_prompt
+
+USER PROMPT:
+what is the difference between list and set in python
+
+AI RESPONSE:
+Here is a comprehensive comparison between a **List** and a **Set** in Python.
+
+---
+
+### Definition
+
+*   **List**: A Python `list` is a built-in, ordered, and mutable collection of elements. It allows duplicate values, maintains the insertion order of elements, and allows access via index positions. Lists are defined using square brackets `[]` or the `list()` constructor.
+*   **Set**: A Python `set` is a built-in, unordered, and mutable collection of unique, hashable elements. It does not allow duplicate values and does not record element positions. Sets are defined using curly braces `{}` (with elements inside) or the `set()` constructor.
+
+---
+
+### Similarities
+
+*   **Mutability**: Both lists and sets are mutable. You can add, update, and delete elements after the collection has been created.
+*   **Heterogeneity**: Both can store elements of different data types (e.g., a mix of integers, strings, and floats) in a single collection.
+*   **Iterability**: Both are iterable. You can loop through both lists and sets using a `for` loop.
+*   **Built-in Functions**: Both support common built-in Python functions like `len()`, `max()`, `min()`, `sum()`, and the `in` operator (membership test).
+
+---
+
+### Differences
+
+| Feature | List | Set |
+| :--- | :--- | :--- |
+| **Ordering** | Ordered (preserves the sequence in which items are added). | Unordered (does not guarantee any specific order). |
+| **Duplicates** | Allows duplicate elements. | Strictly contains only unique elements (duplicates are automatically removed). |
+| **Indexing & Slicing** | Supports indexing (e.g., `my_list[0]`) and slicing (e.g., `my_list[1:4]`). | Does not support indexing or slicing. |
+| **Syntax** | `my_list = [1, 2, 2, 3]` | `my_set = {1, 2, 3}` (Empty set must be `set()`). |
+| **Element Constraints** | Can contain any Python object, mutable or immutable. | Elements must be **hashable** (immutable objects like strings, ints, or tuples; cannot contain lists or dicts). |
+| **Internal Implementation** | Implemented as a dynamic array. | Implemented as a hash table. |
+| **Search Time Complexity** | $O(n)$ (linear time) – must search element by element. | $O(1)$ (constant time on average) – uses hashing. |
+
+---
+
+### Advantages
+
+#### List
+*   **Index-based Access**: Elements can be retrieved instantly if their position (index) is known.
+*   **Preserves Order**: Ideal when the sequence of elements is critical to the logic of the program.
+*   **Allows Duplicates**: Necessary when data redundancy is expected or required (e.g., keeping track of temperature readings over time).
+
+#### Set
+*   **Fast Lookups**: Highly optimized for membership testing (`element in set`) in $O(1)$ time, regardless of the set's size.
+*   **Automatic Deduplication**: Instantly filters out duplicate items without requiring manual coding.
+*   **Mathematical Operations**: Built-in support for set theory operations like union (`|`), intersection (`&`), difference (`-`), and symmetric difference (`^`).
+
+---
+
+### Disadvantages
+
+#### List
+*   **Slow Search Speed**: Searching for an item using the `in` operator becomes slower as the list grows ($O(n)$ complexity).
+*   **No Unique Constraint**: If uniqueness is required, you must manually write logic to prevent duplicate entries.
+
+#### Set
+*   **No Order or Indexing**: Cannot access elements by an index or slice them. Retrieving a specific item requires looping through the set.
+*   **Memory Overhead**: Uses significantly more memory than lists because of the underlying hash table structure.
+*   **Restricted Elements**: Cannot store mutable data types like lists, dictionaries, or other sets.
+
+---
+
+### Applications
+
+#### List Applications
+*   **Timeline / History**: Keeping track of user actions in the order they occurred (e.g., undo/redo history).
+*   **Queues and Stacks**: Implementing data structures where insertion and deletion order matters (FIFO/LIFO).
+*   **Database Records**: Storing a list of rows fetched from a database where duplicates might exist.
+
+#### Set Applications
+*   **Data Deduplication**: Quickly removing duplicate values from a collection (e.g., converting a list with duplicates to a set and back to a list).
+*   **Membership Testing**: Checking if an ID, email, or username exists in a large blacklist or whitelist database.
+*   **Relational Analysis**: Comparing two datasets to find common items (intersection) or unique items (difference).
+
+---
+
+### Conclusion
+
+The choice between a `list` and a `set` in Python depends entirely on the requirements of your data. Use a **list** when the order of elements is important, when you need to access items by index, or when duplicates are meaningful. Use a **set** when you need to ensure all elements are unique, require highly efficient membership testing (searching), or want to perform mathematical set operations.
+================================================================================
